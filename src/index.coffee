@@ -13,6 +13,7 @@ module.exports = class HtmlAngularjsCompiler
   compile: (data, path, callback) ->
     try
       parsedHtml = @parseHtml(data)
+      path = path.substring(path.indexOf('/')+1, path.length)
       result = ".run(['$templateCache', function($templateCache){$templateCache.put('#{path}', '#{parsedHtml}')}])"
     catch err
       error = err
