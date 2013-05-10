@@ -1,6 +1,6 @@
 {
   "name": "html-angularjs-brunch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adds html-angularjs support to brunch.",
   "author": "Jonathan Rico, Daniel López",
   "homepage": "https://github.com/nathanredblur/html-angularjs-brunch",
